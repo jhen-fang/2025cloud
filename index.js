@@ -71,4 +71,5 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   console.log(`♈ Aries Horoscope API is running at http://localhost:${port}`);
+  console.log("🎉 新版本：自動建置測試中！");
 });
