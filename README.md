@@ -55,6 +55,10 @@ docker pull jhenfang/2025cloud:0.0.1
 ```bash
 docker pull jhenfang/2025cloud:latest
 ```
+如果要在本地端 run 最新的版本，可以使用 latest tag
+```bash
+docker run -p 3000:3000 jhenfang/2025cloud:latest
+```
 
 ## 自動化產生 Container Image 的邏輯
 本專案使用 GitHub Actions 自動化建置與推送 Docker 映像檔，流程如下：
